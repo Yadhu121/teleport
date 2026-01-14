@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "hlO01NQebATJ75b2m+vxMOEWzydUufsf7ngw9wRXLHs=",
-  "Source": "teleport",
-  "BasePath": "_content/teleport",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"PfrHXQcPD6XYv7dCaxL6FDUvX+EyfT/n5EN5eLCoArE=","Source":"teleport","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

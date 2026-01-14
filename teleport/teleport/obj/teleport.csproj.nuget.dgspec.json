@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/Yadhu/code/teleport/teleport/teleport.csproj": {}
+    "C:\\Users\\Yadhu\\source\\repos\\teleport\\teleport\\teleport.csproj": {}
   },
   "projects": {
-    "/home/Yadhu/code/teleport/teleport/teleport.csproj": {
+    "C:\\Users\\Yadhu\\source\\repos\\teleport\\teleport\\teleport.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/Yadhu/code/teleport/teleport/teleport.csproj",
+        "projectUniqueName": "C:\\Users\\Yadhu\\source\\repos\\teleport\\teleport\\teleport.csproj",
         "projectName": "teleport",
-        "projectPath": "/home/Yadhu/code/teleport/teleport/teleport.csproj",
-        "packagesPath": "/home/Yadhu/.nuget/packages/",
-        "outputPath": "/home/Yadhu/code/teleport/teleport/obj/",
+        "projectPath": "C:\\Users\\Yadhu\\source\\repos\\teleport\\teleport\\teleport.csproj",
+        "packagesPath": "C:\\Users\\Yadhu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yadhu\\source\\repos\\teleport\\teleport\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/Yadhu/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Yadhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,19 +38,25 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.22, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             }
           },
           "imports": [
@@ -58,12 +70,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -72,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
